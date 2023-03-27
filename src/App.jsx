@@ -11,9 +11,11 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import ResetPassword from "./pages/ResetPassword";
 
+import About from "./pages/About";
+
 function App() {
   const location = useLocation();
-
+  
   useEffect(() => {
     AOS.init({
       once: true,
@@ -33,6 +35,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
         {/* <Route path="/signin" element={<SignIn />} /> */}
         {/* <Route path="/signup" element={<SignUp />} /> */}
         {/* <Route path="/reset-password" element={<ResetPassword />} /> */}
