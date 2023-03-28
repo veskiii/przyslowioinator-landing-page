@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 
 import HeroImage from "../images/hero-image-01.jpg";
 
+import AppGif from '../images/out-3.gif';
+
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
@@ -49,9 +51,9 @@ function HeroHome() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative flex pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center py-6 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
               Mądrość w jednym kliknięciu - Przysłowioinator!
             </h1>
@@ -86,7 +88,7 @@ function HeroHome() {
           </div>
 
           {/* Hero image */}
-          {/* <div>
+          <div className="px-10">
             <div
               className="relative flex justify-center items-center"
               data-aos="fade-up"
@@ -94,64 +96,13 @@ function HeroHome() {
             >
               <img
                 className="mx-auto"
-                src={HeroImage}
-                width="1024"
-                height="504"
-                alt="Hero"
+                src={AppGif}
+                width="338"
+                height="600"
+                alt="Loading..."
               />
-              <a
-                className="absolute group"
-                href="#0"
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  setVideoModalOpen(true);
-                }}
-                aria-controls="modal"
-              >
-                <svg
-                  className="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out"
-                  viewBox="0 0 88 88"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs>
-                    <linearGradient
-                      x1="78.169%"
-                      y1="9.507%"
-                      x2="24.434%"
-                      y2="90.469%"
-                      id="a"
-                    >
-                      <stop stopColor="#EBF1F5" stopOpacity=".8" offset="0%" />
-                      <stop stopColor="#EBF1F5" offset="100%" />
-                    </linearGradient>
-                  </defs>
-                  <circle fill="url(#a)" cx="44" cy="44" r="44" />
-                  <path
-                    className="fill-current text-purple-600"
-                    d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
-                  />
-                </svg>
-              </a>
-            </div> */}
-
-          {/* Modal
-            <Modal
-              id="modal"
-              ariaLabel="modal-headline"
-              show={videoModalOpen}
-              handleClose={() => setVideoModalOpen(false)}
-            >
-              <div className="relative pb-9/16">
-                <iframe
-                  className="absolute w-full h-full"
-                  src="https://player.vimeo.com/video/174002812"
-                  title="Video"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </Modal> */}
-          {/* </div> */}
+            </div>
+          </div>
         </div>
       </div>
     </section>
