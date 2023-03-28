@@ -65,9 +65,9 @@ function Header() {
             </ul> */}
           </nav>
 
-          {/* Mobile menu */}
+          {/* Mobile menu
           <div className="md:hidden">
-            {/* Hamburger button */}
+            {/* Hamburger button 
             <button
               ref={trigger}
               className={`hamburger ${mobileNavOpen && "active"}`}
@@ -87,7 +87,7 @@ function Header() {
               </svg>
             </button>
 
-            {/*Mobile navigation */}
+            {/*Mobile navigation *
             <nav
               id="mobile-nav"
               ref={mobileNav}
@@ -117,7 +117,7 @@ function Header() {
                 </li>
               </ul>
             </nav>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
