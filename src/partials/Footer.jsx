@@ -23,10 +23,7 @@ function Footer() {
                 </Link>
               </div>
               <div className="text-gray-400">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
-                expedita quis, deleniti, tempora dignissimos mollitia soluta
-                explicabo eos nostrum a blanditiis officia ipsum eligendi earum
-                velit, perferendis natus inventore voluptate!
+              Jeśli chcesz dodać odrobinę mądrości do swojego komunikatu w internecie, Przysłowioinator jest dla Ciebie idealnym narzędziem!
               </div>
             </div>
 
@@ -37,46 +34,22 @@ function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Informacje</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="/"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Nostrud exercitation
+                      Przysłowioinator
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="/about"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Visual mockups
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      to="#"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Nostrud exercitation
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      to="#"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Visual mockups
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      to="#"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Nostrud exercitation
+                      O firmie
                     </Link>
                   </li>
                 </ul>
