@@ -95,7 +95,7 @@ function HeroHome() {
               data-aos-delay="200"
             >
               <img
-                className="mx-auto"
+                className="mx-auto rounded"
                 src={AppGif}
                 width="338"
                 height="600"
