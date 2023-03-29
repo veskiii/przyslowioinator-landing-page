@@ -57,7 +57,7 @@ function History() {
             <div id="history" className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 md:order-1 self-start mt-16" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About1} width="440" height="305" alt="Features 01" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About1} width="440" height="305" alt="Osoby trzymające się za ręce" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-8 lg:col-span-7" data-aos="fade-right">
@@ -77,7 +77,7 @@ function History() {
             <div id="structure" className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About2} width="440" height="305" alt="Features 02" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About2} width="440" height="305" alt="budynek firmy" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-8 lg:col-span-7" data-aos="fade-left">
@@ -100,52 +100,51 @@ function History() {
                     <p className="text-2xl font-bold">Bolesław Kwiatkowski</p>
                     <p className="text-xl">Chief Executive Officer (CEO)</p>
                   </div>
-                  <img className="mx-20" src={Staff1} width="500" alt="Features 02" data-aos="fade-up" />
+                  <img className="mx-20" src={Staff1} width="500" alt="CEO Bolesław Kwiatkowski" data-aos="fade-up" />
                 </div>
                 <div className="flex flex-row-reverse items-center justify-center">
                   <div className="flex flex-col gap-2 mb-40" data-aos="fade-left">
                     <p className="text-2xl font-bold">Marek Nowicki</p>
                     <p className="text-xl">Chief Technology Officer (CTO)</p>
                   </div>
-                  <img className="mx-20" src={Staff2} width="500" alt="Features 02" data-aos="fade-up" />
+                  <img className="mx-20" src={Staff2} width="500" alt="CTO Marek Nowicki" data-aos="fade-up" />
                 </div>
                 <div className="flex flex-row items-center justify-center">
                   <div className="flex flex-col gap-2 mb-40 text-end" data-aos="fade-right">
                     <p className="text-2xl font-bold">Jan Krzyżanowski</p>
                     <p className="text-xl">Chief Information Officer (CIO)</p>
                   </div>
-                  <img className="mx-20" src={Staff3} width="500" alt="Features 02" data-aos="fade-up" />
+                  <img className="mx-20" src={Staff3} width="500" alt="CIO Jan Krzyżanowski" data-aos="fade-up" />
                 </div>
                 <div className="flex flex-row-reverse items-center justify-center">
                   <div className="flex flex-col gap-2 mb-40" data-aos="fade-left">
                     <p className="text-2xl font-bold">Grzegorz Wysocki</p>
                     <p className="text-xl">Head of human resources</p>
                   </div>
-                  <img className="mx-20" src={Staff4} width="500" alt="Features 02" data-aos="fade-up" />
+                  <img className="mx-20" src={Staff4} width="500" alt="Grzegorz Wysocki" data-aos="fade-up" />
                 </div>
                 <div className="flex flex-row items-center justify-center">
                   <div className="flex flex-col gap-2 mb-40 text-end" data-aos="fade-right">
                     <p className="text-2xl font-bold">Piotr Swobodny</p>
                     <p className="text-xl">Head of Enterprise Infrastructure Operations & Technology</p>
                   </div>
-                  <img className="mx-20" src={Staff5} width="500" alt="Features 02" data-aos="fade-up" />
+                  <img className="mx-20" src={Staff5} width="500" alt="Piotr Swobodny" data-aos="fade-up" />
                 </div>
               </div>
             </div>
-            {/* data-aos="fade-up" */}
             {/* 4th item */}
-            <div id="owners" className="md:grid md:grid-cols-12 md:gap-6 items-center">
+            <div id="owners" data-aos="fade-up" className="md:grid md:grid-cols-12 md:gap-6 items-center">
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 rtl bg-white h-full items-center flex rounded-xl px-4">
                 <div className="grid grid-cols-3 gap-10 p-4">
-                  <img src={Logo1} width="500" alt="Features 02" />
-                  <img src={Logo2} width="500" alt="Features 02" />
-                  <img src={Logo3} width="500" alt="Features 02" />
-                  <img src={Logo4} width="500" alt="Features 02" />
-                  <img src={Logo5} width="500" alt="Features 02" />
-                  <img src={Logo6} width="500" alt="Features 02" />
-                  <img src={Logo7} width="500" alt="Features 02" />
-                  <img src={Logo8} width="500" alt="Features 02" />
-                  <img src={Logo9} width="500" alt="Features 02" />
+                  <img src={Logo1} width="500" alt="Bic" />
+                  <img src={Logo2} width="500" alt="Oreo" />
+                  <img src={Logo3} width="500" alt="Cisco" />
+                  <img src={Logo4} width="500" alt="Steelcase" />
+                  <img src={Logo5} width="500" alt="Hershey" />
+                  <img src={Logo6} width="500" alt="NatGeo" />
+                  <img src={Logo7} width="500" alt="RedBull" />
+                  <img src={Logo8} width="500" alt="Lego" />
+                  <img src={Logo9} width="500" alt="Hp" />
                 </div>
               </div>
               {/* Content */}
@@ -162,7 +161,7 @@ function History() {
             <div id="offices" className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About5} width="440" height="305" alt="Features 03" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About5} width="440" height="305" alt="Budynek" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-8 lg:col-span-7" data-aos="fade-right">

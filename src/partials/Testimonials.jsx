@@ -33,7 +33,7 @@ function Testimonials() {
                     src={TestimonialImage01}
                     width="48"
                     height="48"
-                    alt="Testimonial 01"
+                    alt="Użytkownik"
                   />
                   <svg
                     className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
@@ -74,7 +74,7 @@ function Testimonials() {
                     src={TestimonialImage02}
                     width="48"
                     height="48"
-                    alt="Testimonial 02"
+                    alt="Użytkownik"
                   />
                   <svg
                     className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
@@ -114,7 +114,7 @@ function Testimonials() {
                     src={TestimonialImage03}
                     width="48"
                     height="48"
-                    alt="Testimonial 03"
+                    alt="Użytkownik"
                   />
                   <svg
                     className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
