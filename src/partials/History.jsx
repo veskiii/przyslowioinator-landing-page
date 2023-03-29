@@ -40,8 +40,8 @@ function History() {
           {/* Section header */}
           <div className="relative max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <Doodling />
-            <h1 className="h2 mb-4">Oto nasza historia</h1>
-            <div className="flex flex-row gap-8 mt-10 justify-between">
+            <h1 className="h2 mb-4 mt-20 md:mt-0">Oto nasza historia</h1>
+            <div className="flex flex-col md:flex-row gap-8 mt-10 justify-between">
                 <Link className="text-blue-500 hover:text-blue-600 hover:underline cursor-pointer" to="history" spy={true} smooth={true} offset={-70} duration={500}>Historia</Link>
                 <Link className="text-blue-500 hover:text-blue-600 hover:underline cursor-pointer" to="structure" spy={true} smooth={true} offset={-70} duration={500}>Struktura</Link>
                 <Link className="text-blue-500 hover:text-blue-600 hover:underline cursor-pointer" to="members" spy={true} smooth={true} offset={-70} duration={500}>Pracownicy</Link>
@@ -54,14 +54,14 @@ function History() {
           <div className="grid gap-40 mt-10 ">
 
             {/* 1st item */}
-            <div id="history" className="md:grid md:grid-cols-12 md:gap-6 items-center">
+            <div id="history" className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-6 items-center">
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 md:order-1 self-start mt-16" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About1} width="440" height="305" alt="Osoby trzymające się za ręce" />
+              <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-5 mb-8 lg:mb-0 lg:order-1 self-start mt-16" data-aos="fade-up">
+                <img className="max-w-full mx-auto lg:max-w-none h-auto" src={About1} width="440" height="305" alt="Osoby trzymające się za ręce" />
               </div>
               {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-8 lg:col-span-7" data-aos="fade-right">
-                <div className="md:pr-4 lg:pr-12 xl:pr-16 gap-2 flex flex-col">
+              <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-7" data-aos="fade-right">
+                <div className="lg:pr-12 xl:pr-16 gap-2 flex flex-col">
                   <h3 className="h3 mb-3">Historia firmy</h3>
                   <p className="text-xl text-gray-400 mb-4">Historia naszej firmy sięga 2015 roku, kiedy to grupa przyjaciół zdecydowała się na stworzenie aplikacji mobilnej, która generowałaby losowe przysłowia z Wikipedii. Wtedy właśnie narodziła się nasza firma, którą nazwaliśmy "Przysłowioinator".</p>
 
@@ -74,14 +74,14 @@ function History() {
             </div>
 
             {/* 2nd item */}
-            <div id="structure" className="md:grid md:grid-cols-12 md:gap-6 items-center">
+            <div id="structure" className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-6 items-center">
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 rtl" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About2} width="440" height="305" alt="budynek firmy" />
+              <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-5 mb-8 lg:mb-0 rtl" data-aos="fade-up">
+                <img className="max-w-full mx-auto lg:max-w-none h-auto" src={About2} width="440" height="305" alt="budynek firmy" />
               </div>
               {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-8 lg:col-span-7" data-aos="fade-left">
-                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+              <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-7" data-aos="fade-left">
+                <div className="lg:pl-12 xl:pl-16">
                   <h3 className="h3 mb-3">Struktura firmy</h3>
                   <p className="text-xl text-gray-400 mb-4">W hierarchicznej strukturze funkcjonalnej naszej firmy każdy pracownik ma jasno określone zadania i odpowiedzialności. Poszczególne działy i stanowiska są ułożone w logiczny sposób, a pracownicy mają dostęp do wyraźnie zdefiniowanych procedur i zasad działania. Dzięki temu struktura firmy pozwala na łatwiejsze zarządzanie zadaniami i projektami oraz na wykorzystanie w pełni potencjału pracowników.</p>
                   <p className="text-xl text-gray-400 mb-4">Władza w firmie jest centralizowana, a decyzje podejmowane są przez wyższe szczeble hierarchii. Jest to korzystne dla firmy, ponieważ umożliwia skuteczne i szybkie podejmowanie decyzji, a jednocześnie minimalizuje ryzyko chaosu i konfliktów między pracownikami. Co więcej, struktura funkcjonalna firmy Przysłowioinator umożliwia elastyczne dostosowanie się do zmieniających się potrzeb rynku i szybką reakcję na nowe wyzwania.</p>
@@ -95,36 +95,36 @@ function History() {
             <div id="members" >
               <h3 className="h3 mb-20" data-aos="fade-right">Władze oraz nasi pracownicy</h3>
               <div className="flex flex-col gap-20">
-                <div className="flex flex-row items-center justify-center">
-                  <div className="flex flex-col gap-2 mb-40 text-end" data-aos="fade-right">
+                <div className="flex flex-col lg:flex-row mb-20 lg:mb-0 items-center justify-center">
+                  <div className="flex flex-col gap-2 mb-8 lg:mb-40 text-center lg:text-end" data-aos="fade-right">
                     <p className="text-2xl font-bold">Bolesław Kwiatkowski</p>
                     <p className="text-xl">Chief Executive Officer (CEO)</p>
                   </div>
                   <img className="mx-20" src={Staff1} width="500" alt="CEO Bolesław Kwiatkowski" data-aos="fade-up" />
                 </div>
-                <div className="flex flex-row-reverse items-center justify-center">
-                  <div className="flex flex-col gap-2 mb-40" data-aos="fade-left">
+                <div className="flex flex-col lg:flex-row-reverse mb-20 lg:mb-0 items-center justify-center">
+                  <div className="flex flex-col gap-2 mb-8 lg:mb-40 text-center lg:text-start" data-aos="fade-left">
                     <p className="text-2xl font-bold">Marek Nowicki</p>
                     <p className="text-xl">Chief Technology Officer (CTO)</p>
                   </div>
                   <img className="mx-20" src={Staff2} width="500" alt="CTO Marek Nowicki" data-aos="fade-up" />
                 </div>
-                <div className="flex flex-row items-center justify-center">
-                  <div className="flex flex-col gap-2 mb-40 text-end" data-aos="fade-right">
+                <div className="flex flex-col lg:flex-row mb-20 lg:mb-0 items-center justify-center">
+                  <div className="flex flex-col gap-2 mb-8 lg:mb-40 text-center lg:text-end" data-aos="fade-right">
                     <p className="text-2xl font-bold">Jan Krzyżanowski</p>
                     <p className="text-xl">Chief Information Officer (CIO)</p>
                   </div>
                   <img className="mx-20" src={Staff3} width="500" alt="CIO Jan Krzyżanowski" data-aos="fade-up" />
                 </div>
-                <div className="flex flex-row-reverse items-center justify-center">
-                  <div className="flex flex-col gap-2 mb-40" data-aos="fade-left">
+                <div className="flex flex-col lg:flex-row-reverse mb-20 lg:mb-0 items-center justify-center">
+                  <div className="flex flex-col gap-2 mb-8 lg:mb-40 text-center lg:text-start" data-aos="fade-left">
                     <p className="text-2xl font-bold">Grzegorz Wysocki</p>
                     <p className="text-xl">Head of human resources</p>
                   </div>
                   <img className="mx-20" src={Staff4} width="500" alt="Grzegorz Wysocki" data-aos="fade-up" />
                 </div>
-                <div className="flex flex-row items-center justify-center">
-                  <div className="flex flex-col gap-2 mb-40 text-end" data-aos="fade-right">
+                <div className="flex flex-col lg:flex-row mb-20 lg:mb-0 items-center justify-center">
+                  <div className="flex flex-col gap-2 mb-8 lg:mb-40 text-center lg:text-end" data-aos="fade-right">
                     <p className="text-2xl font-bold">Piotr Swobodny</p>
                     <p className="text-xl">Head of Enterprise Infrastructure Operations & Technology</p>
                   </div>
@@ -133,9 +133,9 @@ function History() {
               </div>
             </div>
             {/* 4th item */}
-            <div id="owners" data-aos="fade-up" className="md:grid md:grid-cols-12 md:gap-6 items-center">
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 rtl bg-white h-full items-center flex rounded-xl px-4">
-                <div className="grid grid-cols-3 gap-10 p-4">
+            <div id="owners" data-aos="fade-up" className="flex flex-col-reverse gap-8 lg:grid lg:grid-cols-12 lg:gap-6 items-center">
+              <div className="max-w-xl md:max-w-none md:w-full lg:mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 rtl bg-white h-full items-center flex rounded-xl px-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 p-4">
                   <img src={Logo1} width="500" alt="Bic" />
                   <img src={Logo2} width="500" alt="Oreo" />
                   <img src={Logo3} width="500" alt="Cisco" />
@@ -158,14 +158,14 @@ function History() {
             </div>
 
             {/* 5th item */}
-            <div id="offices" className="md:grid md:grid-cols-12 md:gap-6 items-center">
+            <div id="offices" className="flex flex-col-reverse gap-8 lg:grid lg:grid-cols-12 lg:gap-6 items-center">
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-4 lg:col-span-5 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={About5} width="440" height="305" alt="Budynek" />
+              <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-5 lg:mb-0 lg:order-1" data-aos="fade-up">
+                <img className="max-w-full mx-auto lg:max-w-none h-auto" src={About5} width="440" height="305" alt="Budynek" />
               </div>
               {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-8 lg:col-span-7" data-aos="fade-right">
-                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+              <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-7" data-aos="fade-right">
+                <div className="lg:pr-12 xl:pr-16">
                   <h3 className="h3 mb-3">Nasze oddziały</h3>
                   <p className="text-xl text-gray-400 mb-4">Wraz ze swoim rozwojem tworzymy nowe oddziały naszej firmy. Dzięki temu nasz kontakt z klientem będzie o wiele szybszy i bardziej dostępny.</p>
                   <p className="text-xl text-gray-400 mb-4">Lokalizacje:</p>
